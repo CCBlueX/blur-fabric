@@ -3,6 +3,7 @@ on:
     branches: [ "fabric-1.20.4" ]
   pull_request:
     branches: [ "fabric-1.20.4" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
